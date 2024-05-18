@@ -2,6 +2,11 @@
 Requires raylib  
 Compiled using GNU Make utility to maintain groups of programs and GNU Compiler Collection  
 
+## Preview  
+![alt text][gif]
+
+[gif]: https://github.com/Vanilkaa/game-of-life/blob/main/gmlf.gif
+
 ## Keybindings  
 Left mouse button to change cell state  
 Space to run simulation  
