@@ -2,7 +2,7 @@
 Requires raylib  
 Compiled using GNU Make utility to maintain groups of programs and GNU Compiler Collection  
 
-# Keybindings  
+## Keybindings  
 Left mouse button to change cell state  
 Space to run simulation  
 C to clear grid  
