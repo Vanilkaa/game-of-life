@@ -37,8 +37,10 @@ int main() {
 		}
 		
 		if(IsKeyPressed(KEY_C)) {
-			ClearBackground(GRID);
-			simulation.ClearGrid();
+			if(!simulation.IsRunning()) {
+				ClearBackground(GRID);
+				simulation.ClearGrid();
+			}
 		}
 		
 		if(IsKeyPressed(KEY_R)) {
